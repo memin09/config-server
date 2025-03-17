@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: service-hotel
+  datasource:
+    password: ""
+    username: root
+    url: jdbc:mysql://localhost:3306/hotel?serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+server:
+  port: 8082
