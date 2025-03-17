@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: service-hotel
   datasource:
     password: ""
     username: root
